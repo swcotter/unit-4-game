@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.slim.js"
+        integrity="sha256-milezx5lakrZu0OP9b2QWFy1ft/UEUK6NH1Jqz8hUhQ=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <header class="col text-center">
+            <h2>Ready to Dominate?</h2>
+        </header>
+    </div>
+    <div class="container">
+        <div class="row">
+            <strong>Instructions:</strong>
+        </div>
+        <div class="row">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. When you click on a crystal you will add a specific amount of points to
+                your total score. </p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <div>Wins:
+                <div id="wins">0</div>
+            </div>
+            <div>Loses:
+                <div id="loses">0</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="blue">Crystals Number:
+                <div id="totalScore">0</div>
+            </div>
+            <div>
+                <strong>Target Number:</strong>
+                <div id="randomNum"></div>
+            </div>
+        </div>
+        <div class="row">
+            <img class="img-responsive col-3-md" id="crystal1" src="assets/images/Ruby_logo.svg" alt="crystal1">
+            <img class="img-responsive col-3-md" id="crystal2" src="assets/images/Ruby_logo.svg" alt="crystal2">
+            <img class="img-responsive col-3-md" id="crystal3" src="assets/images/Ruby_logo.svg" alt="crystal3">
+            <img class="img-responsive col-3-md" id="crystal4" src="assets/images/Ruby_logo.svg" alt="crystal4">
+        </div>
+    </div>
+    </div>
+    <br>
+    
+</body>
+
+</html>
